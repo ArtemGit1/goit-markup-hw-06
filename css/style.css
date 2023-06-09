@@ -989,8 +989,7 @@ img{
     color: #4d5ae5;
 }
 .modal-checkbox:checked + .modal-checkbox-icon{
-    border: none;
-    fill: #F4F4FD;;
+
     background-color: #404bbf;
 }
 .modal-send{

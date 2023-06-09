@@ -747,7 +747,7 @@ img{
     top: 27%;
     bottom: 42.31%;
 }
-.footer-sub p{
+.footer-sub-p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -756,8 +756,9 @@ img{
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.footer-label{
-
+.footer-form{
+    display: flex;
+    gap: 24px;
 }
 .footer-label-input{
     border: 1px solid #FFFFFF;
@@ -765,6 +766,13 @@ img{
     width: 264px;
     height: 40px;
     border-radius: 4px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: #ffffff;
 }
 .footer-label-input::placeholder{
     font-family: 'Roboto';
@@ -773,7 +781,7 @@ img{
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -783,7 +791,13 @@ img{
     border: none;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     height: 40px;
     color: #FFFFFF;
     margin-left: 20px;

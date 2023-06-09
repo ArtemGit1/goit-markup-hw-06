@@ -839,7 +839,7 @@ img{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -863,9 +863,16 @@ img{
     line-height: 16px;
     letter-spacing: 0.00em;
     color: #8E8F99;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 4px;
+}
+.label-div{
+    position: relative;
 }
 .modal-input{
-    width: 360px;
+    width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;

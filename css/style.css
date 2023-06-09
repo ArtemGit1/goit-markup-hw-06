@@ -888,6 +888,9 @@ img{
     border-color: #4D5AE5;
     fill: #4D5AE5;
 }
+.modal-input:focus + .modal-form-icon{
+    fill: #4D5AE5;
+}
 .modal-input-one{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -989,7 +992,8 @@ img{
     color: #4d5ae5;
 }
 .modal-checkbox:checked + .modal-checkbox-icon{
-
+    border: none;
+    fill: #F4F4FD;
     background-color: #404bbf;
 }
 .modal-send{

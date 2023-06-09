@@ -986,7 +986,7 @@ img{
 .link-privacy{
     color: #4d5ae5;
 }
-.modal-checkbox:checked + .privacy-span{
+.modal-checkbox:checked + .modal-privacy > .privacy-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;

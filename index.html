@@ -394,18 +394,14 @@
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field-one">
-                    <label class="modal-form-label">
-                        <span>Comment</span>
-                        <textarea name="user-text" placeholder="Text input" class="modal-comment"></textarea>
-                        <!--<input type="comment" name="comment" class="modal-input-one" required placeholder="Text input">!-->
-                    </label>
+                <div class="modal-field-two">
+                    <label for="user-comment" class="modal-form-label"><span>Comment</span></label>
+                    <textarea id="user-comment" name="user-comment" placeholder="Text input" class="modal-comment"></textarea>
+                    <!--<input type="comment" name="comment" class="modal-input-one" required placeholder="Text input">!-->
                 </div>
-                <div class="modal-field-one">
-                    <label class="modal-privacy">
-                        <input type="checkbox" name="checkbox-accept-privacy">
-                        <span>I accept the terms and conditions of the Privacy<a href="">Privacy Policy</a></span>
-                    </label>
+                <div class="modal-field-three">
+                    <input  id="user-privacy" type="checkbox" name="user-privacy" value="true" class="visually-hidden">
+                    <label for="user-privacy" class="modal-privacy"><span>I accept the terms and conditions of the<a href="">Privacy Policy</a></span></label>
                 </div>
                 <button type="submit" class="modal-send">Send</button>
             </form>

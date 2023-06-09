@@ -811,6 +811,7 @@ img{
    position: absolute; 
    left: 405px;
    bottom: 10px;
+   margin-left: 16px;
 }
 .backdrop{
     position: fixed;
